@@ -1,0 +1,1942 @@
+{
+  "compatibilityLevel": 1550,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"obis\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.124.2028.0 (23.12)"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "DynamicImprovement": "HighConfidence",
+            "Language": "en-US",
+            "Version": "1.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "sourceQueryCulture": "en-US",
+    "tables": [
+      {
+        "name": "obis",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "CPCAP_NAME_E",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "09e09f78-f376-470b-b2b3-78d163049ae0",
+            "sourceColumn": "CPCAP_NAME_E",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "associatedReferences",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "2db84cb4-fb49-4aed-875a-95263251e11a",
+            "sourceColumn": "associatedReferences",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "basisOfRecord",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "abf19539-a005-491a-b056-44cb8fe3b089",
+            "sourceColumn": "basisOfRecord",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "bibliographicCitation",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c171fa04-56df-47f0-967c-d854fbb9ff77",
+            "sourceColumn": "bibliographicCitation",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "catalogNumber",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "6557b721-990d-4885-bd39-2f5f2d50986b",
+            "sourceColumn": "catalogNumber",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "class",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "0a0e2694-5610-4101-a6b5-d2275312a900",
+            "sourceColumn": "class",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "collectionCode",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "4009c9ba-0565-469a-be53-8f949e89e5f5",
+            "sourceColumn": "collectionCode",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "coordinatePrecision",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "efe46ee6-65fe-4dba-9182-5b02cf0738c9",
+            "sourceColumn": "coordinatePrecision",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "coordinateUncertaintyInMeters",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "8a836a80-965a-4661-856d-e17955dc53fe",
+            "sourceColumn": "coordinateUncertaintyInMeters",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "datasetID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "103f8c0f-0b05-46de-86a9-5f641a35b690",
+            "sourceColumn": "datasetID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "datasetName",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e7862ad7-3026-42d4-859c-5bb3c3b75650",
+            "sourceColumn": "datasetName",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "dateIdentified",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f0414053-4fa6-4faf-ad96-648fe8f27af7",
+            "sourceColumn": "dateIdentified",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a0a95427-ac2c-4ae6-8fc2-91a3991a121d",
+            "sourceColumn": "day",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "decimalLatitude",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "61eb3180-dda3-4679-aa1c-c632ed4ade2e",
+            "sourceColumn": "decimalLatitude",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "decimalLongitude",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "de3fd3e9-7657-4023-847c-a81809f6bebe",
+            "sourceColumn": "decimalLongitude",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "dynamicProperties",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "9c483d2c-c09d-45b5-9140-cc7ebd561f73",
+            "sourceColumn": "dynamicProperties",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "eventDate",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "9acac3d9-34f2-4b90-aa8c-fdf993cb1033",
+            "sourceColumn": "eventDate",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "family",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "430e0dd3-6010-450c-9be4-b63a09d653ae",
+            "sourceColumn": "family",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "genus",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "03c2a7e4-f4af-4402-8cc5-4d7240206de0",
+            "sourceColumn": "genus",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "geodeticDatum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d1b48c68-5967-4179-b79c-6a9605f03a18",
+            "sourceColumn": "geodeticDatum",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "georeferencedDate",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f6bebdab-e843-4675-b964-a6c06bc382f2",
+            "sourceColumn": "georeferencedDate",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "identificationRemarks",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c390ae5b-a76d-438c-9115-42c984b5ca7f",
+            "sourceColumn": "identificationRemarks",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "individualCount",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "aaf44833-6018-4a1c-a368-9b348468b025",
+            "sourceColumn": "individualCount",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "institutionCode",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "22920b00-6fc1-459f-827c-83cecf36ea60",
+            "sourceColumn": "institutionCode",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "kingdom",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "939bb2f1-9854-46ee-85f6-8820985388a7",
+            "sourceColumn": "kingdom",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "license",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "ba91fe3a-ce25-40d4-9e24-f00031dd7583",
+            "sourceColumn": "license",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "modified",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "ea3c1a47-f497-470e-8c82-63f43e297c16",
+            "sourceColumn": "modified",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "8bf1664d-2876-4ac6-84f5-a402a3be7003",
+            "sourceColumn": "month",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "nomenclaturalCode",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "31701546-dafd-48ca-b0dc-f0293670e893",
+            "sourceColumn": "nomenclaturalCode",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "occurrenceID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "5c0616aa-d844-498a-9942-b4f40f57bb3b",
+            "sourceColumn": "occurrenceID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "occurrenceRemarks",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "9a8d00f7-d843-4755-a669-c6084d3663cb",
+            "sourceColumn": "occurrenceRemarks",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "occurrenceStatus",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "829a0e32-6f00-4e58-b430-d03c13777de9",
+            "sourceColumn": "occurrenceStatus",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "order",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b46c3b28-212c-49f5-a4f3-e6fadc764864",
+            "sourceColumn": "order",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "organismID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "cee430ff-fc76-46bc-b555-f06eeab303f7",
+            "sourceColumn": "organismID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "organismRemarks",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "57290657-914f-4d52-95c8-632c29f5c430",
+            "sourceColumn": "organismRemarks",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ownerInstitutionCode",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "27c5a351-cad5-44e1-83f7-4b1ee5d13da4",
+            "sourceColumn": "ownerInstitutionCode",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "phylum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e7ec3653-4703-4295-b487-6863d273b601",
+            "sourceColumn": "phylum",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "preparations",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c8f8455b-e0ea-4676-ae63-c6512aad4a42",
+            "sourceColumn": "preparations",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "recordNumber",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "7420233c-015d-4a57-8877-c734fc216728",
+            "sourceColumn": "recordNumber",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "rightsHolder",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "430dd8c2-6326-49c1-a1f3-5dd40831cb1d",
+            "sourceColumn": "rightsHolder",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "scientificName",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "24c6cca8-0ae0-4715-b005-ef24d0b5b5ea",
+            "sourceColumn": "scientificName",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "scientificNameAuthorship",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "851e232c-90d1-4218-a8eb-8da8fd074612",
+            "sourceColumn": "scientificNameAuthorship",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "scientificNameID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "3e468ca5-fd68-498e-a7d7-f2b1a78ba40d",
+            "sourceColumn": "scientificNameID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "specificEpithet",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "8d67799e-7335-49d4-ba0b-2a77d6261333",
+            "sourceColumn": "specificEpithet",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "taxonRank",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "244ea8be-f9db-43ce-95f9-c616aba03b13",
+            "sourceColumn": "taxonRank",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "taxonRemarks",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "45a109ed-d1eb-47fb-a841-b2be163efe60",
+            "sourceColumn": "taxonRemarks",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "taxonomicStatus",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "555b3239-e378-4932-b51a-3d2224b087e6",
+            "sourceColumn": "taxonomicStatus",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "type",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "8edf6e07-f872-4020-90b1-8affb852f44a",
+            "sourceColumn": "type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "verbatimEventDate",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "22eb68b9-dcdc-42d7-90cc-bab2aa4bdd09",
+            "sourceColumn": "verbatimEventDate",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "vernacularName",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "627bb192-1890-4325-bceb-25be86e5ce16",
+            "sourceColumn": "vernacularName",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "0bee62af-21ac-4bcc-ab12-deedff6a3681",
+            "sourceColumn": "year",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d0fe7dfc-0d1a-4be3-8aaa-ebeaf2a259f6",
+            "sourceColumn": "id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "dataset_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "bad08da3-47de-410b-bc80-e1461a733f5f",
+            "sourceColumn": "dataset_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "node_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c95e49d2-64eb-4825-9fab-18411846ef45",
+            "sourceColumn": "node_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "date_start",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "11ed6254-a68e-45bb-afe8-c6073be98dd2",
+            "sourceColumn": "date_start",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "date_mid",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "05693833-f5c3-47c2-98f7-2f6c6a499e46",
+            "sourceColumn": "date_mid",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "date_end",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "ff5f13e7-280f-4d8d-bd5f-ea0184ea9937",
+            "sourceColumn": "date_end",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "date_year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "79ed41bf-8429-4d67-b878-6910a8a807ae",
+            "sourceColumn": "date_year",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "dropped",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "018adeb8-7fa4-4eaf-b5db-370040173cba",
+            "sourceColumn": "dropped",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "absence",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "b8ad166e-fe77-4c99-87d2-d606beea7d83",
+            "sourceColumn": "absence",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "marine",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "7ed6536f-9e9d-462a-b7a4-4a6eac64705e",
+            "sourceColumn": "marine",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "superdomain",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c4401039-d4ef-421b-9f73-96e8961258a0",
+            "sourceColumn": "superdomain",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "subphylum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "41d25eed-f6c3-454e-9ccb-627c27905166",
+            "sourceColumn": "subphylum",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "infraphylum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "6160a029-d919-44eb-9687-d63d824f4271",
+            "sourceColumn": "infraphylum",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "megaclass",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "ebac258c-0e83-4b11-98b7-0bc9dd3033d0",
+            "sourceColumn": "megaclass",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "superclass",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a422acc3-59f3-4f1e-849b-a6d79d940e35",
+            "sourceColumn": "superclass",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "species",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d4b6915a-1729-4afb-be9c-202d764b61a5",
+            "sourceColumn": "species",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "superdomainid",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "fcd8e3be-f9a0-4acd-a8a7-110423ca85ad",
+            "sourceColumn": "superdomainid",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "kingdomid",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "a9a74ac0-0799-4d4e-825e-fe3e75aff5ce",
+            "sourceColumn": "kingdomid",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "phylumid",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "bfa47a3b-41c5-4d00-bee7-700331f3866e",
+            "sourceColumn": "phylumid",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "subphylumid",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "3f5b22e7-8781-47cd-b3df-34c23f03bf58",
+            "sourceColumn": "subphylumid",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "infraphylumid",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "75652063-6cfd-4fe5-b878-8778ae892970",
+            "sourceColumn": "infraphylumid",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "megaclassid",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "c8965965-41d1-4281-830e-40f970adff14",
+            "sourceColumn": "megaclassid",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "superclassid",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "f112b439-ce6b-4708-8a8e-be1671f4b63b",
+            "sourceColumn": "superclassid",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "classid",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "05666e8e-b566-4b43-9602-bd4793d0fa48",
+            "sourceColumn": "classid",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "orderid",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "cba93cdd-9029-42b7-b56c-9f9d1c80458e",
+            "sourceColumn": "orderid",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "familyid",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "968d92a5-e1ef-41e0-9031-ac345049e86f",
+            "sourceColumn": "familyid",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "genusid",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "f4818b9b-9862-4777-b47c-774e76103b6e",
+            "sourceColumn": "genusid",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "speciesid",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "7a1d5cde-f91d-4700-9126-1700077ba172",
+            "sourceColumn": "speciesid",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "aphiaID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "ed6a2087-7b5e-4fa0-8789-eff49a4d1f74",
+            "sourceColumn": "aphiaID",
+            "summarizeBy": "count"
+          },
+          {
+            "name": "originalScientificName",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "3237e86a-a853-4eea-ac31-b0d70fa64389",
+            "sourceColumn": "originalScientificName",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "flags",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b7d73048-9a8c-40ae-bf11-8e5e9eb13a24",
+            "sourceColumn": "flags",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "bathymetry",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "8ad734b7-2579-45f4-b9a4-0b1dfc722b3b",
+            "sourceColumn": "bathymetry",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "shoredistance",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "d609da5b-d251-4b88-a2c8-ed8a1e693042",
+            "sourceColumn": "shoredistance",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "sst",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "49066e75-8725-46ac-a680-ed676202eec6",
+            "sourceColumn": "sst",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "sss",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "2f004158-2836-49a4-96c0-923c6993a32e",
+            "sourceColumn": "sss",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "accessRights",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "5a5a71e0-d78a-43bf-b153-7e127170c9f4",
+            "sourceColumn": "accessRights",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "endDayOfYear",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "1807a4c3-f904-4476-a24c-1d6b60368420",
+            "sourceColumn": "endDayOfYear",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "eventID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "87942fa6-3e1d-4667-a18a-e35af908bc52",
+            "sourceColumn": "eventID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "footprintWKT",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "4bc494b2-4724-4698-b859-b21cdb52b41d",
+            "sourceColumn": "footprintWKT",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "institutionID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "6b644a4f-46fd-4550-8285-027610ab1268",
+            "sourceColumn": "institutionID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "locality",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "99b48f29-a937-425e-a8f8-235717af86c8",
+            "sourceColumn": "locality",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "organismName",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d96ba1ea-742e-42af-8d93-dfefe6ff1533",
+            "sourceColumn": "organismName",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "organismScope",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "64a75afd-36f8-4d03-98d7-f58f925193f6",
+            "sourceColumn": "organismScope",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "parentEventID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "205b26c5-2364-4d8b-8710-c5fe334c185d",
+            "sourceColumn": "parentEventID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "recordedBy",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b79d2ec4-45af-463f-a047-958bb6b10642",
+            "sourceColumn": "recordedBy",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "samplingProtocol",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "7ee9b08f-7422-4cbc-984c-5b343f818697",
+            "sourceColumn": "samplingProtocol",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "startDayOfYear",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "52ae86f4-65f0-4b23-90bf-352d0f61fee9",
+            "sourceColumn": "startDayOfYear",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "brackish",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "29f04016-28a4-4261-94f1-1637a6ff30ed",
+            "sourceColumn": "brackish",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "parvphylum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "4eff7e62-9837-4249-9ddc-de05b0d5d88f",
+            "sourceColumn": "parvphylum",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "gigaclass",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "33f476b0-ff13-4d73-8b5b-64a3906c6b5c",
+            "sourceColumn": "gigaclass",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "subclass",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d699ed8c-61ef-48dc-912d-d507b383b026",
+            "sourceColumn": "subclass",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "parvphylumid",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "ba814ff5-1e51-4ad3-9bbf-9e89510b07f1",
+            "sourceColumn": "parvphylumid",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "gigaclassid",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "c3147b67-0f40-4fbb-9678-300992c858ab",
+            "sourceColumn": "gigaclassid",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "subclassid",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "f9680f9f-5d50-451a-9e45-2460cdc69c6a",
+            "sourceColumn": "subclassid",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "category",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "2011922b-c13c-4122-86cd-0cfeb41dc19d",
+            "sourceColumn": "category",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "superorder",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "107b65e0-1caa-4fbb-9004-2c3004c8e72f",
+            "sourceColumn": "superorder",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "suborder",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e33ea005-f39e-47ac-ac7b-4eb3c8044c22",
+            "sourceColumn": "suborder",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "infraorder",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "7ffc7dc1-e332-4160-ab71-d6d2f793e66c",
+            "sourceColumn": "infraorder",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "section",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "80e1e6d8-5432-416d-a016-9ef429d8df2d",
+            "sourceColumn": "section",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "subsection",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "474c23f7-908b-4a76-a017-64a54167aaef",
+            "sourceColumn": "subsection",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "superfamily",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "94fb2beb-7c02-4582-9d24-0f24ebbd1d8e",
+            "sourceColumn": "superfamily",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "subfamily",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "45c2dfdd-fc02-4686-bce0-10ce19525b71",
+            "sourceColumn": "subfamily",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "superorderid",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "2708d468-eccd-4a69-a07a-7059d8e1739a",
+            "sourceColumn": "superorderid",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "suborderid",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "39be2feb-8a61-4bc0-bd9f-a610e40e8e00",
+            "sourceColumn": "suborderid",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "infraorderid",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "c008fc2c-1812-4094-8e5a-18caf14ed8d8",
+            "sourceColumn": "infraorderid",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "sectionid",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "b5cc4b2e-7fc8-4360-b05c-0427f50ffc90",
+            "sourceColumn": "sectionid",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "subsectionid",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "fe43214d-f79b-4673-ba51-d6c25e0c05aa",
+            "sourceColumn": "subsectionid",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "superfamilyid",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "ff56831b-ff2f-4d96-aa95-f67d0c1bbefa",
+            "sourceColumn": "superfamilyid",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "subfamilyid",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "bd5e07da-3ac0-4abe-8df6-b2cd0b906a46",
+            "sourceColumn": "subfamilyid",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "wrims",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "d96cb458-e653-4432-bff2-e9e630c79e3d",
+            "sourceColumn": "wrims",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "infraclass",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "925df597-328f-4645-ac82-0112d56eda8e",
+            "sourceColumn": "infraclass",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "infraclassid",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "e6ee82ec-70a0-46c7-ba58-f2e48951f1aa",
+            "sourceColumn": "infraclassid",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "e25a8c0d-9eb9-488b-8df6-91b114b19b82",
+        "partitions": [
+          {
+            "name": "obis",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = R.Execute(\"obis <- testPowerBI::getobisdata()\"),",
+                "    obis1 = Source{[Name=\"obis\"]}[Value]",
+                "in",
+                "    obis1"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DateTableTemplate_aac02756-61eb-4f15-b60d-07d48d5866f2",
+        "annotations": [
+          {
+            "name": "__PBI_TemplateDateTable",
+            "value": "true"
+          },
+          {
+            "name": "DefaultItem",
+            "value": "DateHierarchy"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "76dee31f-52b1-4f0b-8a6f-cc7d71d73168",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "30e51c8b-603f-4092-99a9-27f2b9d0320c",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "792d7bdb-a776-4e4d-91a5-ec4c4094d311",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "8f0f6e54-dfbe-4137-9664-fa37dbc2d841",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "781e395c-c3f7-462a-bb26-cfedefd7788f",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "ea693282-3d18-43df-b2f2-dd3ea0754f73",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "85628eb7-717d-4d4a-92b4-5f647a6f71cf",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Year",
+                "column": "Year",
+                "lineageTag": "a885764d-0d5a-4ab2-932e-d40d9153186f",
+                "ordinal": 0
+              },
+              {
+                "name": "Quarter",
+                "column": "Quarter",
+                "lineageTag": "6b9d3e5d-2315-4034-953e-3281e9b4959d",
+                "ordinal": 1
+              },
+              {
+                "name": "Month",
+                "column": "Month",
+                "lineageTag": "e7884e63-0271-425a-a0dd-64a0a36d4ba1",
+                "ordinal": 2
+              },
+              {
+                "name": "Day",
+                "column": "Day",
+                "lineageTag": "1498a52d-47b5-4c43-930a-cd8d185b1373",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "0a135eed-755f-409d-93fa-257ab079b7ce"
+          }
+        ],
+        "isHidden": true,
+        "isPrivate": true,
+        "lineageTag": "7b22b153-a190-4289-86ed-03a13839dc88",
+        "partitions": [
+          {
+            "name": "DateTableTemplate_aac02756-61eb-4f15-b60d-07d48d5866f2",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))",
+              "type": "calculated"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

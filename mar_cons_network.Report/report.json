@@ -1,0 +1,87 @@
+{
+  "config": "{\"version\":\"5.49\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY23SU11\",\"version\":\"5.50\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY23SU11",
+            "path": "BaseThemes/CY23SU11.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Page 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"2ee91fa733a899e3e075\",\"layouts\":[{\"id\":0,\"position\":{\"x\":852,\"y\":198,\"z\":4,\"width\":428,\"height\":66,\"tabOrder\":4}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"obis.scientificName\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"o\",\"Entity\":\"obis\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"o\"}},\"Property\":\"scientificName\"},\"Name\":\"obis.scientificName\",\"NativeReferenceName\":\"scientificName\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}},\"isInvertedSelectionMode\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"selection\":[{\"properties\":{\"selectAllCheckboxEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 66.00,
+          "width": 428.00,
+          "x": 852.00,
+          "y": 198.00,
+          "z": 4.00
+        },
+        {
+          "config": "{\"name\":\"522e035819580e44b88d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":852,\"y\":264,\"width\":428,\"height\":456,\"z\":5,\"tabOrder\":5}}],\"singleVisual\":{\"visualType\":\"multiRowCard\",\"projections\":{\"Values\":[{\"queryRef\":\"CountNonNull(obis.aphiaID)\"},{\"queryRef\":\"obis.eventID\"},{\"queryRef\":\"obis.eventDate\"},{\"queryRef\":\"obis.eventDate1\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"o\",\"Entity\":\"obis\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"o\"}},\"Property\":\"aphiaID\"}},\"Function\":2},\"Name\":\"CountNonNull(obis.aphiaID)\",\"NativeReferenceName\":\"Count of aphiaID1\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"o\"}},\"Property\":\"eventID\"}},\"Function\":2},\"Name\":\"obis.eventID\",\"NativeReferenceName\":\"Count of eventID\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"o\"}},\"Property\":\"eventDate\"}},\"Function\":3},\"Name\":\"obis.eventDate\",\"NativeReferenceName\":\"First eventDate\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"o\"}},\"Property\":\"eventDate\"}},\"Function\":4},\"Name\":\"obis.eventDate1\",\"NativeReferenceName\":\"Last eventDate\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"o\"}},\"Property\":\"aphiaID\"}},\"Function\":2}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 456.00,
+          "width": 428.00,
+          "x": 852.00,
+          "y": 264.00,
+          "z": 5.00
+        },
+        {
+          "config": "{\"name\":\"55dc2201029d57d22e49\",\"layouts\":[{\"id\":0,\"position\":{\"x\":852,\"y\":0,\"z\":1,\"width\":428,\"height\":66,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"obis.datasetName\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"o\",\"Entity\":\"obis\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"o\"}},\"Property\":\"datasetName\"},\"Name\":\"obis.datasetName\",\"NativeReferenceName\":\"datasetName\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}},\"isInvertedSelectionMode\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"selection\":[{\"properties\":{\"selectAllCheckboxEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 66.00,
+          "width": 428.00,
+          "x": 852.00,
+          "y": 0.00,
+          "z": 1.00
+        },
+        {
+          "config": "{\"name\":\"88b5c9170d16e273ef0d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.658015160512802,\"y\":0,\"z\":0,\"width\":832.1989729975198,\"height\":720.3269640549132,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"esriVisual\",\"projections\":{\"Latitude\":[{\"queryRef\":\"obis.decimalLatitude\"}],\"Longitude\":[{\"queryRef\":\"obis.decimalLongitude\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"o\",\"Entity\":\"obis\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"o\"}},\"Property\":\"decimalLatitude\"},\"Name\":\"obis.decimalLatitude\",\"NativeReferenceName\":\"decimalLatitude\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"o\"}},\"Property\":\"decimalLongitude\"},\"Name\":\"obis.decimalLongitude\",\"NativeReferenceName\":\"decimalLongitude\"}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"mapTools\":[{\"properties\":{\"basemaps\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"mapObject\":[{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"'{\\\"portalUrl\\\":\\\"https://www.arcgis.com\\\",\\\"version\\\":\\\"2.1\\\",\\\"isAuthorNamedUser\\\":false,\\\"map\\\":{\\\"webmap\\\":{\\\"is3d\\\":false,\\\"itemData\\\":{\\\"operationalLayers\\\":[{\\\"id\\\":\\\"MyLayer\\\",\\\"visibility\\\":true,\\\"opacity\\\":1,\\\"minScale\\\":0,\\\"maxScale\\\":0,\\\"refreshInterval\\\":0,\\\"title\\\":\\\"Coordinates\\\",\\\"objectIdField\\\":\\\"objectId\\\",\\\"type\\\":\\\"DataLayer\\\",\\\"layerType\\\":\\\"ArcGISFeatureLayer\\\",\\\"popupEnabled\\\":true,\\\"disablePopup\\\":false,\\\"visible\\\":true,\\\"geometryType\\\":\\\"point\\\",\\\"source\\\":[{\\\"attributes\\\":{},\\\"geometry\\\":{\\\"x\\\":0,\\\"y\\\":0,\\\"type\\\":\\\"point\\\",\\\"spatialReference\\\":{\\\"latestWkid\\\":3857,\\\"wkid\\\":102100}}}],\\\"spatialReference\\\":{\\\"latestWkid\\\":3857,\\\"wkid\\\":102100},\\\"esriMaps\\\":{\\\"customProps\\\":null,\\\"isTimeEnabled\\\":\\\"false\\\",\\\"clusterInfo\\\":null,\\\"filteredRenderer\\\":null,\\\"lastShareInfo\\\":null},\\\"timeInfo\\\":null,\\\"showLabels\\\":false,\\\"featureCollection\\\":{\\\"layers\\\":[{\\\"popupInfo\\\":{\\\"popupElements\\\":[{\\\"type\\\":\\\"fields\\\",\\\"fieldInfos\\\":[{\\\"fieldName\\\":\\\"decimalLatitude\\\",\\\"format\\\":{\\\"digitSeparator\\\":true,\\\"places\\\":2},\\\"label\\\":\\\"decimalLatitude\\\",\\\"tooltip\\\":\\\"\\\",\\\"visible\\\":true},{\\\"fieldName\\\":\\\"decimalLongitude\\\",\\\"format\\\":{\\\"digitSeparator\\\":true,\\\"places\\\":2},\\\"label\\\":\\\"decimalLongitude\\\",\\\"tooltip\\\":\\\"\\\",\\\"visible\\\":true}]}],\\\"expressionInfos\\\":[],\\\"fieldInfos\\\":[{\\\"fieldName\\\":\\\"decimalLatitude\\\",\\\"format\\\":{\\\"digitSeparator\\\":true,\\\"places\\\":2},\\\"label\\\":\\\"decimalLatitude\\\",\\\"tooltip\\\":\\\"\\\",\\\"visible\\\":true},{\\\"fieldName\\\":\\\"decimalLongitude\\\",\\\"format\\\":{\\\"digitSeparator\\\":true,\\\"places\\\":2},\\\"label\\\":\\\"decimalLongitude\\\",\\\"tooltip\\\":\\\"\\\",\\\"visible\\\":true}],\\\"title\\\":\\\"\\\",\\\"actions\\\":[]},\\\"layerDefinition\\\":{\\\"objectIdField\\\":\\\"objectId\\\",\\\"fields\\\":[{\\\"alias\\\":\\\"objectId\\\",\\\"editable\\\":false,\\\"length\\\":-1,\\\"name\\\":\\\"objectId\\\",\\\"nullable\\\":false,\\\"type\\\":\\\"esriFieldTypeOID\\\"},{\\\"alias\\\":\\\"decimalLatitude\\\",\\\"editable\\\":true,\\\"length\\\":-1,\\\"name\\\":\\\"decimalLatitude\\\",\\\"nullable\\\":true,\\\"type\\\":\\\"esriFieldTypeDouble\\\"},{\\\"alias\\\":\\\"decimalLongitude\\\",\\\"editable\\\":true,\\\"length\\\":-1,\\\"name\\\":\\\"decimalLongitude\\\",\\\"nullable\\\":true,\\\"type\\\":\\\"esriFieldTypeDouble\\\"},{\\\"alias\\\":\\\"ROW_ID\\\",\\\"editable\\\":true,\\\"length\\\":-1,\\\"name\\\":\\\"ROW_ID\\\",\\\"nullable\\\":true,\\\"type\\\":\\\"esriFieldTypeInteger\\\"}],\\\"geometryType\\\":\\\"point\\\",\\\"drawingInfo\\\":{\\\"renderer\\\":{\\\"type\\\":\\\"simple\\\",\\\"visualVariables\\\":[],\\\"symbol\\\":{\\\"type\\\":\\\"esriSMS\\\",\\\"color\\\":[250,168,63,178],\\\"angle\\\":0,\\\"xoffset\\\":0,\\\"yoffset\\\":0,\\\"size\\\":10,\\\"style\\\":\\\"esriSMSCircle\\\",\\\"outline\\\":{\\\"type\\\":\\\"esriSLS\\\",\\\"color\\\":[255,255,255,204],\\\"width\\\":1,\\\"style\\\":\\\"esriSLSSolid\\\"}}},\\\"transparency\\\":0},\\\"featureReduction\\\":null,\\\"minScale\\\":0,\\\"maxScale\\\":0,\\\"definitionExpression\\\":null,\\\"elevationInfo\\\":null,\\\"name\\\":\\\"Coordinates\\\",\\\"type\\\":\\\"DataLayer\\\",\\\"locationProvider\\\":{\\\"type\\\":\\\"coordinates\\\",\\\"lookupFields\\\":[{\\\"lookupField\\\":\\\"xFieldName\\\",\\\"outField\\\":\\\"decimalLongitude\\\"},{\\\"lookupField\\\":\\\"yFieldName\\\",\\\"outField\\\":\\\"decimalLatitude\\\"}],\\\"sourceSR\\\":4326,\\\"targetSR\\\":102100},\\\"queryParameters\\\":{\\\"tableId\\\":\\\"\\\",\\\"outFields\\\":[\\\"decimalLatitude\\\",\\\"decimalLongitude\\\",\\\"ROW_ID\\\"]}},\\\"featureSet\\\":{\\\"features\\\":[{\\\"attributes\\\":{},\\\"geometry\\\":{\\\"x\\\":0,\\\"y\\\":0,\\\"type\\\":\\\"point\\\",\\\"spatialReference\\\":{\\\"latestWkid\\\":3857,\\\"wkid\\\":102100}}}]}}]}}],\\\"baseMap\\\":{\\\"baseMapLayers\\\":[{\\\"id\\\":\\\"VectorTile_1970\\\",\\\"opacity\\\":1,\\\"title\\\":\\\"Light Gray Base\\\",\\\"visibility\\\":true,\\\"layerType\\\":\\\"VectorTileLayer\\\",\\\"styleUrl\\\":\\\"https://cdn.arcgis.com/sharing/rest/content/items/291da5eab3a0412593b66d384379f89f/resources/styles/root.json\\\"},{\\\"id\\\":\\\"VectorTile_7117\\\",\\\"opacity\\\":1,\\\"title\\\":\\\"Light Gray Reference\\\",\\\"visibility\\\":true,\\\"layerType\\\":\\\"VectorTileLayer\\\",\\\"styleUrl\\\":\\\"https://cdn.arcgis.com/sharing/rest/content/items/1768e8369a214dfab4e2167d5c5f2454/resources/styles/root.json\\\",\\\"isReference\\\":true}],\\\"title\\\":\\\"Light Gray Canvas\\\"},\\\"version\\\":\\\"2.26\\\",\\\"authoringApp\\\":\\\"ArcGIS for Power BI\\\",\\\"initialState\\\":{\\\"viewpoint\\\":{\\\"targetGeometry\\\":{\\\"spatialReference\\\":{\\\"latestWkid\\\":3857,\\\"wkid\\\":102100},\\\"xmin\\\":-6609788.050295485,\\\"ymin\\\":5757189.103906185,\\\"xmax\\\":-6546956.813045045,\\\"ymax\\\":5810007.090451262}}}}},\\\"webmapExtensions\\\":{}}}'\"}}}}}],\"layers\":[{\"properties\":{\"layerTitle\":{\"expr\":{\"Literal\":{\"Value\":\"'OBIS records inside CPCAD sites'\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'OBIS records inside CPCAD sites'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 720.33,
+          "width": 832.20,
+          "x": 9.66,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"ad7d12cc66577ca5faa7\",\"layouts\":[{\"id\":0,\"position\":{\"x\":852,\"y\":66,\"z\":2,\"width\":428,\"height\":66,\"tabOrder\":2}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"obis.CPCAP_NAME_E\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"o\",\"Entity\":\"obis\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"o\"}},\"Property\":\"CPCAP_NAME_E\"},\"Name\":\"obis.CPCAP_NAME_E\",\"NativeReferenceName\":\"CPCAP_NAME_E\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"selection\":[{\"properties\":{\"selectAllCheckboxEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"o\",\"Entity\":\"obis\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"o\"}},\"Property\":\"CPCAP_NAME_E\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'St. Anns Bank Marine Protected Area'\"}}]]}}}]}}}}]}}}",
+          "filters": "[]",
+          "height": 66.00,
+          "width": 428.00,
+          "x": 852.00,
+          "y": 66.00,
+          "z": 2.00
+        },
+        {
+          "config": "{\"name\":\"bde7416d53f92742d468\",\"layouts\":[{\"id\":0,\"position\":{\"x\":852,\"y\":132,\"z\":3,\"width\":428,\"height\":66,\"tabOrder\":3}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"obis.class\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"o\",\"Entity\":\"obis\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"o\"}},\"Property\":\"class\"},\"Name\":\"obis.class\",\"NativeReferenceName\":\"class\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}},\"isInvertedSelectionMode\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"selection\":[{\"properties\":{\"selectAllCheckboxEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 66.00,
+          "width": 428.00,
+          "x": 852.00,
+          "y": 132.00,
+          "z": 3.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}
